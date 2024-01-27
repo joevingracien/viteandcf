@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import { Vector3, MathUtils } from "three";
 import { useRef, useReducer, useMemo } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import {
@@ -131,9 +131,9 @@ function Scene(props) {
 function Connector({
   position,
   children,
-  vec = new THREE.Vector3(),
+  vec = new Vector3(),
   scale,
-  r = THREE.MathUtils.randFloatSpread,
+  r = MathUtils.randFloatSpread,
   accent,
   ...props
 }) {
@@ -165,7 +165,7 @@ function Connector({
   );
 }
 
-function Pointer({ vec = new THREE.Vector3() }) {
+function Pointer({ vec = new Vector3() }) {
   const ref = useRef();
   useFrame(({ mouse, viewport }) => {
     ref.current?.setNextKinematicTranslation(
