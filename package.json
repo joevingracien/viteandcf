@@ -12,10 +12,15 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@react-three/drei": "^9.96.5",
+    "@react-three/fiber": "^8.15.15",
+    "@react-three/postprocessing": "^2.15.12",
+    "@react-three/rapier": "^1.2.1",
     "@remix-run/cloudflare": "0.0.0-nightly-deaedf5-20240126",
     "@remix-run/cloudflare-pages": "0.0.0-nightly-deaedf5-20240126",
     "@remix-run/react": "0.0.0-nightly-deaedf5-20240126",
     "isbot": "^4.1.0",
+    "maath": "^0.10.7",
     "miniflare": "^3.20231030.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
