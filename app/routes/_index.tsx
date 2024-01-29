@@ -11,7 +11,7 @@ export default function Index() {
           <meshStandardMaterial />
         </mesh>
       </Canvas>
-      <h1>HELLO CF VITE REMIX R3F</h1>
+      <h1>HELLO CF VITE REMIX R3F ! YAY !</h1>
     </div>
   );
 }
