@@ -8,7 +8,7 @@ export default function Index() {
         <directionalLight color="red" position={[0, 0, 5]} />
         <mesh>
           <boxGeometry />
-          <meshStandardMaterial />
+          <meshStandardMaterial color="red" />
         </mesh>
       </Canvas>
       <h1>BRO</h1>
